@@ -1,0 +1,145 @@
+@CHARSET "UTF-8";
+/*all*/
+*{margin:0;padding:0;
+
+}
+.user-login{
+	width: 100%;
+	height: 40px;
+}
+.header-menu{
+ 	height:40px;
+ 	width: 100%;
+ }
+.header-menu-left{
+	width:80%;
+	 height:40px;
+	 float: left;
+	 background-color:#48525E; 
+}
+.header-user{
+	height:40px;
+	width: 20%;
+	float: right;
+	background-color:#48525E; 
+}
+.header-logo{
+	width:230px;
+ 	height:40px;
+ 	margin-top: 0px;
+	margin-left:10px;
+ 	float: left;
+	display:inline-block;
+}
+.header-logo a{
+ 	color:#FFFFFF;
+ }
+ .header-logo h3{
+ 	line-height: 50px;
+    padding: 0px;
+    margin: 5px;
+    font-weight: normal;
+    padding-left: 15px;
+    font-size: 25px;
+    display: inline;
+ }
+ .header-logo i{
+ 	display: inline-block;
+ 	width:45px;
+ 	height: 40px;
+ 	text-align: center;
+ 	font-size:40px;
+ 	color:#FFF;
+ 	line-height: 40px;
+ 	background: #6bc095;
+ }
+h3{
+ 	line-height: 20px;
+    padding: 0px;
+    margin: 5px;
+    font-weight: normal;
+    padding-left: 15px;
+    font-size: 20px;
+    display: inline;
+ }
+li{list-style: none;}
+.all{
+	
+	background-color: #EFEFEF;
+}
+/*top*/
+
+.index-left{
+    width:34%;
+    height:370px;
+    float:left;
+    position:relative;
+    z-index:0;
+    overflow: hidden;
+}
+.index-right{
+    width:64%;
+    height:370px;
+    float:right;
+    text-align:right;
+     
+}
+.footer{
+
+padding:24px 15px;
+font-size:14px;
+text-align:center;
+color:#999;
+background-color:#FFF;}
+.mess{
+	position:absolute;
+	z-index: 2;
+	left:50px; 
+	top:10px;
+}
+.hotmess-left{
+	width:100%;
+    height:190px;
+    float:left;
+    overflow: hidden;
+    background-color: white;
+}
+.table-mess{
+	width:100%;
+	height:190;
+}
+.table-fun a{
+	display: inline-block;
+	width:40px;
+	height: 24px;
+	line-height: 24px;
+	padding: 3px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	text-align: center;
+}
+.title-image{
+	width:10px;
+	height: 22px;
+	float:left;
+}
+.title{
+	height: 22px;
+}
+.head-menu{
+	height: 40px;
+	background-color:#48525E;
+	width: 100%;
+}
+
+.example1{}
+.example1 ol{position:relative;width: 80px;height: 20px;top:-30px;left:60px;}
+.example1 ol li{float:right;width: 5px;height: 5px;margin: 5px;background: #fff;}
+.example1 ol li.seleted{background: #1AA4CA;}
+
+/*上划动作*/
+.luara-top{position:relative;padding:0;overflow: hidden;}
+.luara-top ul{position: relative;padding: inherit;margin: 0;}
+.luara-top ul li{padding: inherit;margin: inherit;list-style: none;}
+.luara-top ul li img{width: inherit;height: inherit;}
+

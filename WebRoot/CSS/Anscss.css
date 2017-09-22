@@ -1,0 +1,11 @@
+
+.wrapper{ width:100%; float:left; padding:10px 0; overflow:hidden; background:#f5f8fd; border-bottom:1px dashed #ccc;}
+
+.top01-hf{ padding:10px; width:618px; float:left;}
+.top01-hf p{width:100%; float:left; padding-bottom:8px;}
+.top01-hf .p2{ color:#ccc;}
+.top01-hf .hf{ float:right;}
+
+#focus{ margin:0 10px; display:inline; display:none; width:588px; float:left;}
+.textarea{ width:100%; height:90px;}
+#submit{ display:block; background:url(../image/btn01.jpg) no-repeat; width:79px; height:20px; text-indent:-999em; cursor:pointer; border:none; float:right; margin-top:10px;}
